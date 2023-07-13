@@ -135,7 +135,7 @@ if($_SESSION["perfil"] == "Especial"){
 
                     <div class="btn-group">
                         
-                      <button title="Pendiente ..." disabled class="btn btn-info btnImprimirFactura" codigoVenta="'.$value["codigo"].'">
+                      <button disabled title="En busca de otra librería ..." class="btn btn-info btnImprimirFactura" codigoVenta="'.$value["codigo"].'">
 
                         <i class="fa fa-print"></i>
 
@@ -145,7 +145,7 @@ if($_SESSION["perfil"] == "Especial"){
 
                       echo '<button class="btn btn-warning btnEditarVenta" idVenta="'.$value["id"].'"><i class="fa fa-pencil"></i></button>
 
-                      <button class="btn btn-danger btnEliminarVenta" idVenta="'.$value["id"].'"><i class="fa fa-times"></i></button>';
+                      <button class="btn btn-danger btnEliminarVenta" idVenta="'.$value["id"].'"><i class="fa fa-trash"></i></button>';
 
                     }
 

@@ -4,7 +4,7 @@
 
 		<ul class="sidebar-menu">
 
-			<!-- <li class="active">
+			<li class="active">
 
 				<a href="inicio">
 
@@ -13,7 +13,7 @@
 
 				</a>
 
-			</li> -->
+			</li>
 
 			<li>
 
